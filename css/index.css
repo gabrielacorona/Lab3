@@ -37,6 +37,7 @@ main {
   border: 5px groove white;
   border-radius: 10px;
   flex-grow: 1;
+  flex-shrink: 1;
   margin: 10px;
   padding: 10px;
 }
@@ -100,6 +101,8 @@ main {
     flex-grow: 1;
     flex-direction: row;
     justify-content: space-evenly;
+    width: 33%;
+    box-sizing: border-box;
   }
 
   .menu {
